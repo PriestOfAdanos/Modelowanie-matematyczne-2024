@@ -1,0 +1,36 @@
+# Modelowanie matematyczne - laboratorium 3
+
+## Dokumentacja zadania laboratoryjnego nr 3
+
+**Tytuł:** Zadania laboratoryjne 3
+
+**Autor:** Paweł Habrzyk
+
+**Kierunek:** Informatyka, studia 2 stopnia (sem.II)
+
+**Data:** 5-11-2023 r.
+
+### Opis:
+
+Krótki opis teoretyczny i praktyczny zrealizowanego zadania / projektu.
+
+W ramach laboratorium wykonano następujące zadania:
+
+1. **Animacja okręgu** - Utworzono animowany rysunek okręgu z dynamicznie zmieniającym się promieniem i kolorem, z wykorzystaniem instrukcji `Hue` w środowisku programistycznym Wolfram.
+2. **Zmienne w funkcjach** - Przedstawiono różnice w sposobie definiowania zmiennych funkcji oraz zaprezentowano metodę podstawiania różnych wartości.
+3. **Definicja specyficznych funkcji** - Zdefiniowano funkcje działające na ograniczonych dziedzinach, takie jak pierwiastek kwadratowy z ograniczeniem do argumentów dodatnich oraz funkcję potęgową dla argumentów całkowitych i rzeczywistych.
+4. **Macierz z średnimi arytmetycznymi** - Skonstruowano macierz, której elementy stanowią średnie arytmetyczne indeksów.
+5. **Właściwości macierzy** - Obliczono wartości własne i wektory własne macierzy, a także zbadano jej wyznacznik.
+6. **Generowanie ciągów** - Wykorzystując różne pętle (`Do`, `While`, `For`), wygenerowano i wyświetlono na ekranie elementy ciągu arytmetycznego i geometrycznego.
+7. **Instrukcje warunkowe** - Stworzono procedury sprawdzające liczby pierwiastków rzeczywistych funkcji kwadratowej z wykorzystaniem instrukcji warunkowych `Which` i `If`.
+8. **Programowanie modułów** - Napisano programy `Module` wykonujące specyficzne zadania, takie jak znajdowanie liczby pierwiastków rzeczywistych funkcji kwadratowej oraz określanie największego elementu danej listy.
+9. **Ciąg arytmetyczny z pętlą While** - Utworzono program w Mathematica, który za pomocą pętli `While` wyświetla na ekranie wszystkie elementy ciągu arytmetycznego \( c_n \), tak długo, jak długo elementy ciągu są mniejsze niż 1000.
+10. **Ciąg arytmetyczny z pętlą For** - Wykonano zadanie analogiczne do poprzedniego, jednak z zastosowaniem pętli `For`. Zilustrowano różnice w stosowaniu obu typów pętli.
+11. **Procedury warunkowe z Which** - Utworzono procedurę w Mathematica przy użyciu instrukcji warunkowej `Which`, która sprawdza liczbę pierwiastków rzeczywistych funkcji kwadratowej. Procedura analizuje współczynniki funkcji i określa, ile rozwiązań posiada równanie kwadratowe.
+12. **Procedury warunkowe z If** - Podobne zadanie do nr 11, ale zrealizowane przy użyciu instrukcji warunkowej `If`. Zaprezentowano różnice i przypadki użycia obu instrukcji.
+13. **Programowanie modułu do pierwiastków kwadratowych** - Napisano program `Module` w Mathematica, który określa liczbę pierwiastków rzeczywistych funkcji kwadratowej na podstawie danych współczynników.
+14. **Moduł wyznaczający maksimum z listy** - Stworzono moduł `Module`, który znajduje największy element w danej liście bez wykorzystania wbudowanej funkcji `Max`.
+
+### Załącznik:
+
+- Plik z programem (Habrzyk_lab3.nb)
