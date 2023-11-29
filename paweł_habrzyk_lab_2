@@ -1,0 +1,47 @@
+# Wprowadzenie do modelowania komputerowego i symulacji
+
+## Dokumentacja do Zadania Laboratoryjnego 2
+
+### Tytuł: Spadające ciało
+
+Autor: Aleksander Kulpa
+
+Kierunek studiów: Informatyka (sem. V)
+
+Gliwice, 9.11.2021 r.
+
+### Cel projektu:
+Wynikiem zakończonego projektu jest program, który potrafi obliczyć drogę obiektu z i bez oporu powietrza oraz masy obiektu, generując wykres ilustrujący drogę spadającego obiektu.
+
+### Opis:
+Program rozwiązuje równanie różniczkowe, abyśmy mogli obliczyć czas, w którym obiekt spadnie na ziemię z danej wysokości. Następnie obliczamy czas i f oraz wstawiamy te zmienne do wykresu, na którym przedstawiamy drogę obiektu w zależności od czasu i wysokości.
+
+Stosujemy ten sam kod, ale w równaniu różniczkowym uwzględniamy opór powietrza i masę obiektu.
+
+#### Spadające ciało w próżni
+
+##### Dane wejściowe:
+g = 9.81; (* [m/s^2] *)
+v0 = -5.0; (* [m/s] *)
+h = 30;(* [m] *)
+
+##### Dane wyjściowe:
+
+#### Spadające ciało z oporem powietrza i masą
+
+##### Dane wejściowe:
+g = 9.81;(* [m/s^2] *)
+v0 = -5.0; (* [m/s] *)
+h = 30;(* [m] *)
+m = 1;(* kg *)
+k = 0.9;(* [kg/s] *)
+
+##### Dane wyjściowe:
+
+W przypadku zmiany współczynnika k widać, że im większy opór, tym niższa wysokość, na którą może się zbliżyć obiekt, i krótszy czas, w którym osiąga ziemię.
+
+W przypadku zmiany masy widać, że im mniejsza masa, tym dłużej trwa osiągnięcie ziemi, a największa różnica występuje przy niskiej masie, a potem przy większej masie różnica staje się nieistotna ze względu na opór powietrza, ponieważ w próżni masa obiektu nie ma znaczenia.
+
+W kwestii wysokości, im jest większa, tym dłużej trwa osiągnięcie ziemi, a z każdym krokiem wzrost jest równomierny.
+
+W kwestii prędkości początkowej ponownie, gdy wzrasta, również wzrasta czas potrzebny do osiągnięcia ziemi, a każdy krok jest większy niż poprzedni.
