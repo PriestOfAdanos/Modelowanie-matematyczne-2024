@@ -94,4 +94,14 @@ $$\varepsilon, \delta ~\frac{1}{\inf}$$
 (^ oba są bardzo małe)
 $$\forall v_1,v_2 \in \R |v_1 - v_2|<\delta \implies |f(v_1,a,b) - f(v_2,a,b)|<\varepsilon$$ 
 
+5.  Modele dyskretne i ciągłe (z przykładem). Zasada przejścia: ciągłe-dyskretne.
+Model ciągły - model reprezentowany przez funkcje ciągłe, czyli, mówiąc intuicyjnie, dla argumentów leżących blisko siebie wartości funkcji też leżą blisko siebie. Przykładem może być równanie różniczkowe opisujące ruch ciała.
 
+Model dyskretny - model reprezentowany przez funkcje dyskretne, czyli, mówiąc intuicyjnie, funkcje określające wartości konkretnych argumentów (często przedstawiane w postaci tabeli).
+Przykładem modelu dyskretnego może być tabela rozkładu prawdopodobieństwa w teorii gier
+
+Zasada przejścia ”dyskretne ↔ ciągłe”
+1. Ciągły, jednorodny obiekt dzielimy na ”kawałki”.
+2. Do każdego ”kawałka” stosujemy prawo opisujące badane zjawisko i formułujemy wzór obowiązujące w ”kawałku”.
+3. Sumujemy otrzymane wzory po wszystkich ”kawałkach”.
+4. Przechodzimy z sumą do granicy.
