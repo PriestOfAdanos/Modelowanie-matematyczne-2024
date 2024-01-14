@@ -87,3 +87,11 @@ $$ $$
 zjawisko i formułujemy wzór obowiązujące w ”kawałku”.
 1. Sumujemy otrzymane wzory po wszystkich ”kawałkach”.
 2. Przechodzimy z sumą do granicy.
+
+### Stabilność modelu:
+Definicja stabilności modelu matematycznego odnosi się do jego zachowania w odpowiedzi na niewielkie zmiany warunków początkowych, parametrów lub warunków zewnętrznych. Model uznaje się za stabilny, jeśli małe zmiany tych czynników prowadzą jedynie do małych zmian w wynikach modelu. 
+$$\varepsilon, \delta ~\frac{1}{\inf}$$ 
+(^ oba są bardzo małe)
+$$\forall v_1,v_2 \in \R |v_1 - v_2|<\delta \implies |f(v_1,a,b) - f(v_2,a,b)|<\varepsilon$$ 
+
+
